@@ -19,6 +19,9 @@
     UIButton *btn = [[UIButton alloc] init];
     [self.view addSubview:btn];
     
+    UIView *view = [[UIView alloc] init];
+    [self.view addSubview:view];
+    
     NSLog(@"%@", self);
 }
 
